@@ -1,0 +1,81 @@
+body {
+    font-family: 'Open Sans', serif;
+    line-height: 25px;
+}
+
+h1 {
+    line-height: 1.4;
+    font-size: 50px;
+}
+
+h2 {
+    line-height: 1.2;
+    margin-top: 0px;
+    color: #0A246A;
+}
+
+strong {
+    font-weight: 700;
+}
+
+.email {
+    margin-top: 30px;
+}
+
+.email a {
+    color: #ddd;
+}
+
+header ul.meta li.email {
+  display: block;
+}
+
+article a,
+article a:visited {
+    color: #0A246A;
+}
+
+article li {
+  margin-left: 0;
+}
+
+article .container {
+  margin-left: 1em;
+}
+
+@media (max-width: 960px) {
+  article .container {
+    margin-left: 0;
+  }
+}
+
+.highlight
+{
+    background: #000;
+    border: 1px solid #eff4ff;
+    font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    line-height: 26px;
+}
+
+.highlight .language-batch {
+    color: #c0c0c0;
+}
+
+.highlight .c1 { color: rgb(74,141,63); font-style: italic } /* Comment.Single */
+.highlight .s1 { color: rgb(214,157,133) }
+.highlight .k { color: rgb(86,156,214) }
+.highlight .kc { color: rgb(86,156,214) }
+.highlight .kd { color: rgb(86,156,214) }
+.highlight .nx { color: rgb(220,220,220) }
+.highlight .na { color: rgb(220,220,220) }
+.highlight .mi { color:  rgb(134,181,133)}
+.highlight .p { color: #aaaaaa }
+.highlight .o { color: #aaaaaa }
+
+@media (max-width: 960px) {
+  h1 {
+    font-size: 36px;
+  }
+}
