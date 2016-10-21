@@ -27,5 +27,5 @@ github_username:  acraven
 repository: acraven/acraven.github.io
 
 # Build settings
-markdown: redcarpet
+markdown: kramdown
 theme: minima
