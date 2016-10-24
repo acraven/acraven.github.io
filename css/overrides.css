@@ -14,8 +14,32 @@ h2 {
     color: #0A246A;
 }
 
+h3 {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 4px;
+    color: #0A246A;
+}
+
+sup {
+    font-size: 70%;
+    vertical-align: super;
+}
+
 strong {
     font-weight: 700;
+}
+
+.figcaption {
+    font-weight: bold;
+    background-color: #eee;
+    padding: 4px 6px;
+    margin-left: 1px;
+    margin-right: 1px;
+}
+
+.figcaption ~ figure {
+    border-top: 0;
 }
 
 .email {
@@ -26,8 +50,16 @@ strong {
     color: #ddd;
 }
 
+a {
+    font-weight: 700;
+}
+
 header ul.meta li.email {
-  display: block;
+    display: block;
+}
+
+article a {
+    text-decoration: underline;
 }
 
 article a,
@@ -49,6 +81,14 @@ article .container {
   }
 }
 
+.highlighter-rouge {
+    font-family: 'Source Code Pro', 'Courier New', Courier, monospace;
+    background-color: #f8f8f8;
+    border: 1pt solid rgba(86,156,214, 0.3);
+    border-radius: 3px;
+    padding: 1px 2px 2px 2px;
+}
+
 .highlight
 {
     background: #000;
@@ -57,22 +97,38 @@ article .container {
     padding: 5px 10px;
     margin-bottom: 15px;
     line-height: 26px;
+    overflow: auto;
 }
 
-.highlight .language-batch {
+.highlight pre {
+    line-height: 1.4;
+}
+
+.highlight .language-batch,
+.highlight .language-tree,
+.highlight .language-powershell {
     color: #c0c0c0;
 }
 
-.highlight .c1 { color: rgb(74,141,63); font-style: italic } /* Comment.Single */
+.highlight .c1 { color: rgb(74,141,63); font-style: italic }
+.highlight .s { color: rgb(214,157,133) }
 .highlight .s1 { color: rgb(214,157,133) }
+.highlight .s2 { color: rgb(214,157,133) }
+.highlight .se { color: rgb(214,157,133) }
 .highlight .k { color: rgb(86,156,214) }
 .highlight .kc { color: rgb(86,156,214) }
 .highlight .kd { color: rgb(86,156,214) }
-.highlight .nx { color: rgb(220,220,220) }
-.highlight .na { color: rgb(220,220,220) }
+.highlight .kt { color: rgb(86,156,214) }
 .highlight .mi { color:  rgb(134,181,133)}
-.highlight .p { color: #aaaaaa }
+.highlight .n { color: rgb(220,220,220) }
+.highlight .na { color: rgb(220,220,220) }
+.highlight .nc { color: rgb(78,201,176) }
+.highlight .nf { color: rgb(220,220,220) }
+.highlight .nn { color: rgb(220,220,220) }
+.highlight .nt { color: rgb(215,186,125) }
+.highlight .nx { color: rgb(220,220,220) }
 .highlight .o { color: #aaaaaa }
+.highlight .p { color: #aaaaaa }
 
 @media (max-width: 960px) {
   h1 {

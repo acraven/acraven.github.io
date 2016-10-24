@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Installing and Configuring Karma and Jasmine on Windows"
+title: "Installing and configuring Karma and Jasmine on Windows"
 date: 2015-12-05
 categories: karma jasmine windows
 featured_image: /images/cover.jpg
