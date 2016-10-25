@@ -242,4 +242,4 @@ Running the `_build.bat` batch file will build, test and package our project usi
 {% endhighlight %}
 
 ### Summary
-We have created a **NuGet** package that can be consumed by multiple platforms, albeit a little contrived, but it can be extended for real world packages. In the next post in the series, we will create a Continuous Delivery pipeline in **AppVeyor** that will publish the package at [www.nuget.org](www.nuget.org){:target="_blank"}.
+We have created a **NuGet** package that can be consumed by multiple platforms, albeit a little contrived, but it can be extended for real world packages. In the next post in the series, we will create a continuous delivery pipeline in **AppVeyor** that will publish the package at [www.nuget.org](https://www.nuget.org/){:target="_blank"}.

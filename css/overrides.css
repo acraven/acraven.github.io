@@ -105,6 +105,7 @@ article .container {
 }
 
 .highlight .language-batch,
+.highlight .language-text,
 .highlight .language-tree,
 .highlight .language-powershell {
     color: #c0c0c0;
@@ -129,6 +130,7 @@ article .container {
 .highlight .nx { color: rgb(220,220,220) }
 .highlight .o { color: #aaaaaa }
 .highlight .p { color: #aaaaaa }
+.highlight .pi { color: #aaaaaa }
 
 @media (max-width: 960px) {
   h1 {

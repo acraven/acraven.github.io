@@ -11,6 +11,10 @@ http://thephuse.github.io/strange_case/
 
 Ideas
 -----
+Comment on dependencies in NuGet package
+
+Semantic versioning of nuget packages
+
 A. Docker dotnet core
 	api reference
 	code generator
@@ -25,6 +29,7 @@ D. Owin Middleware runs twice if request isn't handled
 E. To singleton or not to singleton
 	state vs stateless
 	lifetime conflicts
+    use prepop state in constructor as an example
 F. Aspects of HttpClient
    //async
    //request
