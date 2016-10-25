@@ -4,6 +4,8 @@ title: "Implementing continuous delivery of NuGet packages"
 date: 2016-10-12
 categories: dotnet cd continuous delivery nuget appveyor
 featured_image: /images/cover.jpg
+tags:
+- draft
 ---
 In my [last post]({% post_url 2016-10-11-building-multi-platform-nuget-packages %}) we created a solution to build multi-platform **NuGet** packages. Along with the packaged code, it consisted of a test project and some build scripts; enough to form the basis of a continuous delivery pipeline.  I'm a big fan of [AppVeyor](https://www.appveyor.com/){:target="_blank"}, which apart from it being configurable by code, is free for Open Source Software, so we will be using it to build, test, package and publish our multi-platform NuGet package.
 

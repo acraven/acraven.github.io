@@ -58,6 +58,19 @@ header ul.meta li.email {
     display: block;
 }
 
+.watermark
+{
+  position: fixed;
+  top: 40%;
+  width: inherit;
+  z-index: 99;
+  color: rgba(192,16,16,0.4);
+  font-size: 1000%;
+  font-weight: bold;
+  text-align: center;
+  transform: rotate(-45deg);
+}
+
 article a {
     text-decoration: underline;
 }

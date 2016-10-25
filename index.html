@@ -37,7 +37,7 @@ document.addEventListener("DOMContentLoaded", function(event) {
     <ul class="posts">
       {% for post in site.posts %}
         <li>
-          <h2><a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a></h2>
+          <h2><a href="{{ site.baseurl }}{{ post.url }}">{% if post.tags contains 'draft'%}DRAFT: {%endif%}{{ post.title }}</a></h2>
           <span class="meta">
             {{ post.date | date_to_string }}
           </span>

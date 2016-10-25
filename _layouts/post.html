@@ -41,6 +41,9 @@ layout: default
 </header>
 
 <article>
+  {% if page.tags contains 'draft'%}
+  <div class="watermark">DRAFT</div>
+  {% endif %}
   <div class="container">
     <h2>{{ page.title }}</h2>
     {{ content }}
