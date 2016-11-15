@@ -57,7 +57,9 @@ configuration: Release
 before_build:
   - ps: Import-Module .\build\psake.psm1
 build_script:
-  - ps: Invoke-Psake .\build\build.ps1 -properties @{"Configuration"=$env:CONFIGURATION}
+  - ps: |
+      Invoke-Psake .\build\build.ps1 -properties @{"Configuration"=$env:CONFIGURATION}
+      if ($psake.build_success -eq $false) { exit 1 }
 test: off
 artifacts:
   - path: 'artifacts\*.nupkg'
