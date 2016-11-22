@@ -14,17 +14,16 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Andrew Craven
-tagline: 'Advanced Driver, Advanced Coder, Advanced Bore' # A brief tagline for your site
+tagline: 'Driver, Coder, Father (in no particular order)'
 sidebar_image: /images/cover.jpg
-email: your-email@domain.com
+email: andrew@epworth-consulting.co.uk
 description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
+  Random ramblings from my experiences with .NET and related technologies
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://example.com" # the base hostname & protocol for your site
-github_username:  acraven
+url: "https://acraven.github.io" # the base hostname & protocol for your site
+github_username: acraven
 repository: acraven/acraven.github.io
+permalink: /blog/:year/:month/:day/:title/
 
 # Build settings
 markdown: kramdown
