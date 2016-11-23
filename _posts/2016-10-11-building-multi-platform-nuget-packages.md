@@ -4,6 +4,8 @@ title: "Building multi-platform NuGet packages"
 date: 2016-10-11
 categories: dotnet core standard framework nuget
 featured_image: /images/cover.jpg
+comments: true
+uid: 3c56078b
 ---
 **.NET Core** was released several months ago now and as such people are itching to experiment with porting their code to this new framework. This may prove to be in vain owing to the lack of **NuGet** packages that are compatible with **.NET Core**, or rather the **.NET Standard**. This problem is not just limited to 3<sup>rd</sup> party public packages, but also many private packages created in IT departments; the inspiration for this post.
 

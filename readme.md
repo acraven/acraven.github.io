@@ -4,11 +4,6 @@ https://gist.github.com/fnichol/867550#the-manual-way-boring
 
 http://jasonwilder.com/blog/2014/08/19/squashing-docker-images/
 
-
-   set SSL_CERT_FILE=C:\Work\cacert.pem
-
-bundle exec jekyll serve
-
 http://thephuse.github.io/strange_case/
 
 
