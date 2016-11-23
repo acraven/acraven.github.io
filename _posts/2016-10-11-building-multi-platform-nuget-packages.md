@@ -15,7 +15,7 @@ uid: 3c56078b
 You will need **Visual Studio 2015 Update 3** and **.NET Core tools for Visual Studio** as described on the [.NET Core](https://www.microsoft.com/net/core#windows){:target="_blank"} site. It is possible to achieve all this using the **.NET Core CLI** and **Visual Studio Code**, but I find the combination of **Visual Studio 2015** and **Resharper** very compelling still. Don't worry if you don't use **Resharper**, it won't prevent you from completing the task.
 
 ### Cut to the chase
-If you would rather just dive in, fork the GitHub repository [my-nuget-package](https://github.com/acraven/my-nuget-package){:target="_blank"} and run `_build.bat`.
+If you would rather just dive in, fork the **GitHub** repository [my-nuget-package](https://github.com/acraven/my-nuget-package){:target="_blank"} and run `_build.bat`.
 
 ### Creating the solution
 Open **Visual Studio** and create a **New Project** using the **Class Library (.NET Core)** template. Personally, I like to have the projects in the `src` folder, this involves some initial fiddling but results in a cleaner folder structure for larger solutions.
