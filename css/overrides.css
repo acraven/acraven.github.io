@@ -80,8 +80,15 @@ article a:visited {
     color: #0A246A;
 }
 
+article ul {
+  margin-left: 2em;
+  padding-bottom: 0.5em;
+}
+
 article li {
   margin-left: 0;
+  margin-bottom: 0.3em;
+  font-size: 0.9em;
 }
 
 article .container {

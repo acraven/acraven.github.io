@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: Andrew Craven
-tagline: 'Driver, Coder, Father (in no particular order)'
+tagline: '"There is one thing worse than exercise, and that is unrecorded exercise."'
 sidebar_image: /images/cover.jpg
 email: andrew@epworth-consulting.co.uk
 description: > # this means to ignore newlines until "baseurl:"

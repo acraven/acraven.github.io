@@ -1,3 +1,5 @@
+http://shashangka.com/2016/11/26/net-core-startup/
+
 https://help.github.com/articles/setting-up-your-github-pages-site-locally-with-jekyll/
 
 https://gist.github.com/fnichol/867550#the-manual-way-boring
@@ -11,6 +13,9 @@ http://thephuse.github.io/strange_case/
 Ideas
 -----
 Comment on dependencies in NuGet package
+Docker continuous delivery
+Bivouac
+Burble
 
 Semantic versioning of nuget packages
 
