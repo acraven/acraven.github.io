@@ -23,7 +23,7 @@ Charlie made a fine reaction save minutes later to prevent the equaliser. He bac
 
 With Toton losing to Radcliffe, Farndon losing to Attenborough and Wollaton Hall and Bramcote not playing, we jump from 7th to 4th, to within 5 points of 2nd place Bottesford.
 
-We have arguably our biggest game of the season on Saturday. Said 2nd place Bottesford are heading over, no doubt with the intention to right a wrong (at least in their eyes). If I remember correctly, we beat them before Christmas, something like 4-1, so they will be very hungry. It would be a tremendous achievement if we can do “the double” and take ourselves to within 2 points of them.
+We have arguably our biggest game of the season on Saturday. Said 2nd place Bottesford are heading over, no doubt with the intention to right a wrong (at least in their eyes). If I remember correctly, we [beat them before Christmas]({% post_url 2016-12-17-bottesford-long-bennington %}), something like 4-1, so they will be very hungry. It would be a tremendous achievement if we can do “the double” and take ourselves to within 2 points of them.
 
 If we can ask one thing all season: please, please, please, no girlfriends, no sleep-overs, no alcohol, no cigarettes, no drugs (soft or hard) on Friday night; just plenty of sleep and a good early breakfast on Saturday morning. Steve won’t approve, but if they get cold hands, send them in a pair of thin gloves. We are talking marginal gains. Kick-off is 10:30, please report with match winning attitude at 9:45.
 
