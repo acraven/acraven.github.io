@@ -15,7 +15,7 @@ The inclusion of Sam Green, Will and Toby after 12 minutes completed the thaw wi
 
 We didn’t manage to test the ‘keeper in the remainder of the half, but we had 3 or 4 good shots that were just wide of the mark. Despite dominating, we couldn’t get daylight between us and a team that “has a goal in them” [Steve’s words]; the half finished a tight 1-0.
 
-Much like he predicted our victory over Nottingham FC, Steve wasn’t wrong; the visitors started much the brighter side in the second and equalised within a minute of the restart. Top corner from 30 yards, Charlie had no chance.
+Much like he predicted our [victory over Nottingham in the cup]({% post_url 2016-11-12-nottingham-long-bennington %}), Steve wasn’t wrong; the visitors started much the brighter side in the second and equalised within a minute of the restart. Top corner from 30 yards, Charlie had no chance.
 
 We recovered our composure and started to apply some pressure; Sam Wright invited the ‘keeper to make a spectacular save with a finger-tip with a looping shot to the back post and he obliged. This was the catalyst for a series of shots leading up to Jamie running the entire right wing and crossing for Sam Green to smash in from 6 yards to restore our goal advantage midway through the half. 2-1.
 
