@@ -31,7 +31,7 @@ For **Windows**, you will need **Visual Studio 2015 Update 3** and **.NET Core t
 For **Linux**, you will need [.NET Core](https://www.microsoft.com/net/core#linuxubuntu){:target="_blank"} and an editor of your choice, I use [Visual Studio Code](https://code.visualstudio.com/docs/setup/linux).
 
 ### Cut to the chase
-If you would rather just dive in, fork the **GitHub** repository [dockerised-dotnet-core-api](https://github.com/acraven/dockerised-dotnet-core-api){:target="_blank"}, start **Docker** and run `build-and-package.sh` followed by `run.sh`.
+If you would rather just dive in, fork the **GitHub** repository [dockerised-dotnet-core-api](https://github.com/acraven/dockerised-dotnet-core-api){:target="_blank"}, start **Docker** and run `docker-build-and-package.sh` followed by `docker-run.sh`.
 
 You can confirm the API is running by navigating to [192.168.99.100:9000/ping](http://192.168.99.100:9000/ping) or [localhost:9000/ping](http://localhost:9000/ping) depending on your **Docker** installation. 
 
@@ -258,4 +258,4 @@ dotnet run -p app\DotnetApiReference\project.json
 The status endpoints middleware will have exposed [localhost:9000/ping](http://localhost:9000/ping) and [localhost:9000/status](http://localhost:9000/status).
 
 ### Summary
-We have created a very simple web API in .NET Core that exposes two diagnostics endpoints. In the next post of the series, we will use **Docker** to build and run the web API.
+We have created a very simple web API in .NET Core that exposes two diagnostics endpoints. In the [next post]({% post_url 2017-01-09-dockerised-dotnet-core-api-2-of-3 %}) of the series, we will use **Docker** to build and run the web API.
