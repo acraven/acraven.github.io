@@ -12,8 +12,8 @@ I love the concept of **Docker** and ever since **.NET Core** was released I hav
 ### Requirements
 Before anything else, I scribled down some requirements that were important (in no particular order).
 
-- Be built and tested on a build/CI agent in **Docker**.
-- Allow non-committed changes to be built and tested in **Docker**.
+- Be built and tested on a build/CI agent using **Docker**.
+- Allow non-committed changes to be built and tested using **Docker**.
 - Build in a clean repeatable environment.
 - Have minimal final image size.
 - Support inside-out testing before the image is built.
@@ -31,7 +31,7 @@ For **Windows**, you will need **Visual Studio 2015 Update 3** and **.NET Core t
 For **Linux**, you will need [.NET Core](https://www.microsoft.com/net/core#linuxubuntu){:target="_blank"} and an editor of your choice, I use [Visual Studio Code](https://code.visualstudio.com/docs/setup/linux).
 
 ### Cut to the chase
-If you would rather just dive in, fork the **GitHub** repository [dockerised-dotnet-core-api](https://github.com/acraven/dockerised-dotnet-core-api){:target="_blank"}, start **Docker** and run `docker-build-and-package.sh` followed by `docker-run.sh`.
+If you would rather just dive in, fork the **GitHub** repository [dockerised-dotnet-core-api](https://github.com/acraven/dockerised-dotnet-core-api){:target="_blank"}, start **Docker** and run `./docker-build-and-package.sh` followed by `./docker-run.sh`.
 
 You can confirm the API is running by navigating to [192.168.99.100:9000/ping](http://192.168.99.100:9000/ping) or [localhost:9000/ping](http://localhost:9000/ping) depending on your **Docker** installation. 
 
@@ -42,22 +42,13 @@ My solution consists of two projects that reside in the `app` folder of the repo
 {% highlight tree %}
  └─app
     ├─DotnetApiReference
-    │  ├─DotnetApiReference.xproj
     │  ├─Program.cs
     │  ├─project.json
-    │  ├─project.lock.json
-    │  ├─Startup.cs
-    │  └─Properties
-    │     └─AssemblyInfo.cs
-    ├─DotnetApiReference.Tests
-    │  ├─DotnetApiReference.Tests.xproj
-    │  ├─project.json
-    │  ├─project.lock.json
-    │  ├─StatusScenarios
-    │  │  └─ping.cs
-    │  └─Properties
-    │     └─AssemblyInfo.cs
-    └─DotnetApiReference.sln
+    │  └─Startup.cs
+    └─DotnetApiReference.Tests
+       ├─StatusScenarios
+       │  └─ping.cs
+       └─project.json
 {% endhighlight %}
 
 I have included the **NuGet** packages `Bivouac` and `Burble`; the former contains middleware for server logging and status endpoints, the latter adds HTTP client logging, retrying and throttling. I will delve into these packages in another post.
@@ -85,7 +76,7 @@ I have included the **NuGet** packages `Bivouac` and `Burble`; the former contai
 }
 {% endhighlight %}
 
-The API uses the **Kestrel** web server which in this example listens to port 9000.
+The web API uses the **Kestrel** web server which in this example listens to port 9000.
 
 <div class="figcaption">app\DotnetApiReference\Program.cs</div>
 {% highlight csharp %}
@@ -248,7 +239,7 @@ dotnet restore
 dotnet test app\DotnetApiReference.Tests\project.json
 {% endhighlight %}
 
-The API can be run locally using `dotnet run`.
+The API can be run locally using `dotnet run`, remembering to use the `-p` argument.
 
 {% highlight batch %}
 dotnet restore
