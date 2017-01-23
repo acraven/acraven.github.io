@@ -1,13 +1,13 @@
 ---
 layout: post
 title: "A Dockerised .NET Core API (part 2 of 3)"
-date: 2017-01-09
+date: 2017-01-23
 categories: dotnet core api docker
 featured_image: /images/cover.jpg
-tags:
-- draft
+comments: true
+uid: 10f1d606
 ---
-In my [last post]({% post_url 2017-01-09-dockerised-dotnet-core-api-1-of-3 %}) we created a web API using **.NET Core**. The aim of this particular post is demonstrate how we can create a **Docker** image of our web API in a robust, reliable and repeatable CI (Continuous Integration) process.
+In the [last post]({% post_url 2017-01-09-dockerised-dotnet-core-api-1-of-3 %}) of the series we created a web API using **.NET Core**. The aim of this post is demonstrate how we can create a **Docker** image of our web API in a robust, reliable and repeatable CI (Continuous Integration) process.
 
 ### Getting it into Docker
 I have come across several solutions for getting the published binaries into **Docker**, and none have left me with the satisfying glow of job well done, not even my chosen solution. I want to build in **Docker**, but I don't want to link a volume, besides which linked volumes need extra configuration with **boot2docker** (so I'm ruling those out). I want a minimal image size, which means I need to build in a different container to which is deployed. 
@@ -149,6 +149,6 @@ docker run \
 You can confirm the API is running by navigating to [192.168.99.100:9000/ping](http://192.168.99.100:9000/ping) or [localhost:9000/ping](http://localhost:9000/ping) depending on your **Docker** installation.
 
 ### Summary
-We have dockerised our web API and we can build and run our web API with just a couple of commands. This is great from a development workflow point of view; for those that just want to consume this service all we need on our development machines is a **Git** client and a **Docker** client. As our web API evolves we could use **Docker Compose** to run any downstream messaging and database services.
+We have dockerised our web API and we can build and run our web API with just a couple of commands, either locally or from a CI pipeline. This is great from a development workflow point of view too; for those that just want to consume this service all we need on our development machines is a **Git** client and a **Docker** client. As our web API evolves we could use **Docker Compose** to run any downstream messaging and database services.
 
-In the next post we will look into how we might productionise the web API. We need to secure our web API using the OWASP guidelines, we need a Continuous Integration pipeline and we need a mechanism of deploying our container from this pipeline into the wild.
+In the next post we will look into how we might productionise the web API. We need to secure our web API using the OWASP guidelines and we need a mechanism of deploying our container from a CI pipeline into the wild.

@@ -4,8 +4,8 @@ title: "A Dockerised .NET Core API (part 1 of 3)"
 date: 2017-01-09
 categories: dotnet core api docker
 featured_image: /images/cover.jpg
-tags:
-- draft
+comments: true
+uid: f45285f0
 ---
 I love the concept of **Docker** and ever since **.NET Core** was released I have been eager to combine the two, but couldn't find a good resource for doing so. My ultimate goal of this series of posts therfore, is to bring them together to create a base from which enterprise micro-services can easily be spawned. The aim of this particular post is the creation of a web API using **.NET Core**. Later posts will focus on dockerising and productionising the API.
 
@@ -249,4 +249,4 @@ dotnet run -p app\DotnetApiReference\project.json
 The status endpoints middleware will have exposed [localhost:9000/ping](http://localhost:9000/ping) and [localhost:9000/status](http://localhost:9000/status).
 
 ### Summary
-We have created a very simple web API in .NET Core that exposes two diagnostics endpoints. In the [next post]({% post_url 2017-01-09-dockerised-dotnet-core-api-2-of-3 %}) of the series, we will use **Docker** to build and run the web API.
+We have created a very simple web API in .NET Core that exposes two diagnostics endpoints. In the [next post]({% post_url 2017-01-23-dockerised-dotnet-core-api-2-of-3 %}) of the series, we will use **Docker** to build and run the web API.
